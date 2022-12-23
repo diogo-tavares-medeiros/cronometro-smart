@@ -1,0 +1,55 @@
+ * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    body {
+        background-color: #111;
+    }
+
+    .max-width {
+        max-width: 500px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 10%;
+        background-color: #FFF;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-family: 'Segoe UI';
+        font-size: 1.1em;
+        transition: all .5s;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    button:hover {
+        background-color: #a1c0d1;
+    }
+
+    button:active {
+        background-color: #111;
+    }
+
+    .bg-green {
+        background-color: #b2d1a1;
+    }
+
+    .bg-yellow {
+        background-color: #d1cba1;
+    }
+
+    .bg-red {
+        background-color: #d1a1a1;
+    }
